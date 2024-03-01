@@ -1,3 +1,3 @@
 # Zshop - fakeSite
 
-![Screenshot da pagina](./imagens/PrintdoSite.png)
+![Screenshot da pagina](./imagens/Printdosite.png)
