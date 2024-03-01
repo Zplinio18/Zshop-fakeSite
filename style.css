@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*define como vai ser o tamanho do nosso elemento */
+    font-family: 'Arial', sans-serif;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex; /*coloca os itens um do lado do outro*/
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.navbar .logo{
+    width: 100px;
+}
+
+.navbar .logo img{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.navbar .links ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar .links ul li{
+    margin-left: 35px;
+}
+
+.navbar .links ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+
+.navbar .links ul li a:hover{ /*trocar a cor com a passagem do mouse*/
+    color: #C8550E; 
+}
+
+.container{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container .text{
+    width: 50%;
+}
+
+.container .photo{
+    width: 50%;
+}
+
+.container .text h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.container .text h1 span{
+    font-weight: 400;
+}
+
+.container .text p{
+    width: 85%;
+    font-size: 17px;
+    margin: 25px 0;
+    color: grey;
+}
+
+.container .text button{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #C8550E;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container .text button:hover{
+    background: #b14d0e;
+}
+
+.container .photo img{
+    width: 500px;
+}
